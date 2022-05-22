@@ -3,7 +3,7 @@
 
 import datetime
 
-class LMS:
+class Library_management_system:
 
     def __init__(self, list_of_books, library_name):
         self.list_of_books = "list_of_books.txt"
@@ -69,7 +69,7 @@ class LMS:
 
 if __name__ == "__main__":
     try:
-        mylms = LMS("list_of_books.txt", "Python's")
+        mylms = Library_management_system("list_of_books.txt", "Python's")
         press_key_list = {"D": "Display Books", "I": "Issue Books", "A": "Add Books", "R": "Return Books", "Q": "Quit"}    
         
         key_press = False
